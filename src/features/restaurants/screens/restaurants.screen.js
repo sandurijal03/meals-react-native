@@ -9,10 +9,10 @@ const SafeArea = styled(SafeAreaView)`
   ${StatusBar.currentHeight && `margin-top: ${StatusBar.currentHeight}px`}
 `
 
-const SearchContainer = styled.View`
+const SearchContainer = styled(View)`
   padding: ${(props) => props.theme.space[3]};
 `
-const RestaurantContainer = styled.View`
+const RestaurantContainer = styled(View)`
   flex: 1;
   padding: ${(props) => props.theme.space[3]};
 `
