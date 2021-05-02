@@ -1,5 +1,5 @@
 import React from 'react'
-import { SafeAreaView, StatusBar } from 'react-native'
+import { SafeAreaView, StatusBar, View } from 'react-native'
 import { Searchbar } from 'react-native-paper'
 import styled from 'styled-components'
 import { RestaurantInfoCard } from '../components/restaurant-info-card.component'
